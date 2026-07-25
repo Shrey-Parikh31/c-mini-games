@@ -1,0 +1,7 @@
+*.class
+*.o
+*.exe
+bin/
+build/
+output/
+*.zip
