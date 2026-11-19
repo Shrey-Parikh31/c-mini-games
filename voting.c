@@ -10,10 +10,10 @@ typedef struct
 
 Candidate candidates[CANDIDATE_COUNT] =
 {
-    {"Narendra Modi", 0},
-    {"Rahul Pappu Gandhi", 0},
-    {"Arvind Keju", 0},
-    {"Uddhav Thakrey", 0}
+    {"Candidate A", 0},
+    {"Candidate B", 0},
+    {"Candidate C", 0},
+    {"Candidate D", 0}
 };
 
 int spoiledtvotes = 0;
@@ -89,7 +89,7 @@ int main()
 
     do
     {
-        printf("\n\n ##### Welcome to Election/Voting 2024 #####");
+        printf("\n\n ##### Welcome to the Voting System #####");
         printf("\n\n 1. Cast the Vote");
         printf("\n 2. Find Vote Count");
         printf("\n 3. Find leading Candidate");
